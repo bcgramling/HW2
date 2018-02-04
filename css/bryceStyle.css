@@ -24,6 +24,23 @@ h2 {font-variant:small-caps;
 	height: 750px;
 }
 
+.info {
+	float:left;
+	width: 72%;
+	padding:15px;
+}
+
+.favorites {
+	width:24%;
+	background-color:#d3d3d3;
+	border:1px solid gray;
+	padding:5px;
+	margin-left: auto;
+	float:right;
+	height:720px;
+	font-variant:small-caps;
+}
+
 .resumeContent{
 	width:85%;
 	margin-top: 20px;
@@ -43,7 +60,7 @@ h2 {font-variant:small-caps;
 	float:left;
 }
 
-/* used to center the photos on the page */
+/* pictures formatting. Styled from mikeStyle */
 .filmstrip{
 	width:100%;
 	text-align:left;
@@ -60,30 +77,13 @@ h2 {font-variant:small-caps;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	display:inline-block;
-
 }
 
 .gallery {
 	width:210px;
 }
 
-.info {
-	float:left;
-	width: 72%;
-	padding:15px;
-}
-
-.favorites {
-	width:24%;
-	background-color:#d3d3d3;
-	border:1px solid gray;
-	padding:5px;
-	margin-left: auto;
-	float:right;
-	height:720px;
-	font-variant:small-caps;
-}
-
+/*img border*/
 img {
    padding:1px;
    border:1px solid #021a40;
@@ -91,13 +91,14 @@ img {
 }
 
 
-/* Formatting for menu bar and navigation */
+/* Formatting for menu bar and navigation. Styled from mikeStyle */
 #menubar { 
 	background-color: #CC3433; 
 	float: right;
 	width:100%;
 	overflow:hidden;
-	}
+}
+	
 ul#navlist { 
 	list-style-type:none; 
 	margin: 0 auto; 
